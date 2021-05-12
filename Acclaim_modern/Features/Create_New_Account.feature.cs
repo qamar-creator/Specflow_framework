@@ -103,7 +103,7 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 6
- testRunner.Given("user is on the login page as url \"https://dev-acclaimui.azurewebsites.net/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("user is on the login page as url \"\"www.test.com\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 7
  testRunner.When("user clicks on forgot password", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
@@ -120,7 +120,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "Password",
                             "Confirm_password"});
                 table1.AddRow(new string[] {
-                            "ulzaman415@gmail.com",
+                            "xyx@g.com",
                             "test@111",
                             "test@111"});
 #line 10
