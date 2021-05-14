@@ -3,11 +3,11 @@ Forget password,change password scenarios
 
 @mytag
 Scenario:Fortgot_password
-Given The user lands on login page as "https://azdevacclaim.azurewebsites.net/Home/Home.aspx"
+Given The user lands on login page as "www.test.com"
 And clicks on forgot password? link
 And user fills in required fields as below
 | site_id | enter_email            |
-| Acclaim | acclaim146@gmail.com |
+| 2333 | acom.gmail.com |
 When user clicks button Recover Password
 Then a lable should read "Email has been sent to your Email Id." should display on the screen
 When user clicks close button on this screen
